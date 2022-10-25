@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .axit{
-  font-family: Open Sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .tabs{
-  margin: 100px 0 50px 0;
+  margin: 100px 0 50px;
 }
 .container{
   width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.open-tab{
+  display: flex;
+  justify-content: space-between;
 }
 .tabs .open-tab {
   border: 1px solid #C6CBCD;
@@ -21,11 +27,8 @@
   border-top: none;
 }
 
-.open-tab img {
-  vertical-align: bottom;
-}
-
 .tabs .open-tab .left-side h3 {
+  font-family: 'Open Sans';
   height: 124px;
   line-height: 124px;
   font-size: 30px;
@@ -45,16 +48,17 @@
   width: 270px;
   height: 58px;
   background: #EC7979;
+  font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 600;
   border: none;
-  color: #FFF
+  color: #fff;
 }
 
 .tabs .left-side {
   width: 570px;
-  display: inline-block;
-  margin: 0 25px 0 100px;
+  /* display: inline-block; */
+  margin: 0 30px 0 100px;
   vertical-align: top;
 }
 
@@ -66,6 +70,7 @@
   vertical-align: middle;
   margin-right: -5px;
   text-transform: uppercase;
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 14px;
   height: 40px;
