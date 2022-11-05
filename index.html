@@ -5,15 +5,90 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/axit-header.css">
+  <link rel="stylesheet" href="css/social.css">
   <link rel="stylesheet" href="css/tabs.css">
   <link rel="stylesheet" href="css/awesome.css">
   <link rel="stylesheet" href="css/pricing.css">
   <link rel="stylesheet" href="css/customers.css">
+  <link rel="stylesheet" href="css/design.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/axit-footer.css">
   <title>AXIT</title>
 </head>
 
 <body>
   <main class="axit">
+    <header class="header">
+      <div class="header__bg">
+        <div class="header__top">
+          <div class="header__logo">
+            <img src="images/axit-logo.svg" alt="axit-logo">
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">features</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Pricing</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Reviews</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__content">
+          <div class="container">
+            <div class="header__content-inner">
+              <div class="header__content-left">
+                <div class="header__content-logo">
+                  <img src="images/axit-biglogo.svg" alt="axit-logo">
+                </div>
+                <h1 class="header__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                <div class="header__separator"></div>
+                <h5 class="header__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                <button class="btn">Download</button>
+              </div>
+              <form class="header__form" action="#" onsubmit="return false">
+                <h4 class="form__title">Try Your <span>FREE</span> Trial Today</h4>
+                <input class="form__input" type="text" placeholder="Name">
+                <input class="form__input" type="email" placeholder="Email">
+                <input class="form__input" type="password" placeholder="Password">
+                <button class="form__btn">Get Started</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="social">
+      <div class="container">
+        <div class="social__box">
+          <div class="social__content">
+            <h4 class="social__title">Social Media</h4>
+            <h5 class="social__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aenean euismod bibendum laoreet.</h5>
+          </div>
+          <div class="social__media">
+            <img src="images/facebook_icon (1).svg" alt="facebook">
+            <img src="images/twitter_icon (1).svg" alt="twitter">
+            <img src="images/rss_icon (1).svg" alt="rss">
+            <img src="images/linkedin_icon (1).svg" alt="linkedin">
+            <img src="images/instagram_icon (1).svg" alt="instagram">
+            <img src="images/github_icon (1).svg" alt="github">
+            <img src="images/pinterest_icon (1).svg" alt="pinterest">
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="tabs">
       <div class="container">
         <section class="tabs-list">
@@ -38,7 +113,7 @@
               <br />
               bibendum laoreet.
             </h5>
-            <button>Download</button>
+            <button class="tabs__btn">Download</button>
           </section>
           <img src="images/statueOfLiberty.png" alt="The Statue of liberty">
         </section>
@@ -77,8 +152,8 @@
     <section class="pricing">
       <div class="container">
         <h2>pricing options</h2>
-        <div class="separator"></div>
-        <h5 class="pricing__title">
+        <div class="pricing__separator"></div>
+        <h5 class="pricing__subtitle">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         </h5>
         <section class="pricing__inner">
@@ -190,6 +265,55 @@
         </section>
       </div>
     </section>
+    <section class="design">
+     <div class="design__bg">
+      <div class="container">
+        <div class="design__inner">
+          <h2 class="design__title">STYLISH AXURE DESIGN</h2>
+          <div class="design__separator"></div>
+          <h5 class="design__subtitle">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
+            faster than ever!</h5>
+          <button class="design__btn">Download</button>
+        </div>
+      </div>
+     </div>
+    </section>
+
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="contact__title">Contact us</h2>
+      <div class="contact__separator"></div>
+      <h5 class="contact__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </h5>
+      <form class="contact__form" action="#" onsubmit="return false">
+          <div class="contact__inputs">
+              <input placeholder="Name" type="text">
+              <input placeholder="Email" type="email">
+              <input placeholder="Password" type="password">
+          </div>
+          <textarea placeholder="Message"></textarea>
+      </form>
+      <button>Send message</button>
+      </div>
+  </section>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__social">
+          <img class="footer__img" src="images/facebook_icon.svg" alt="facebook">
+          <img class="footer__img" src="images/github_icon.svg" alt="github">
+          <img class="footer__img" src="images/instagram_icon.svg" alt="instagram">
+          <img class="footer__img" src="images/linkedin_icon.svg" alt="linkedin">
+          <img class="footer__img" src="images/pinterest_icon.svg" alt="pinterest">
+          <img class="footer__img" src="images/rss_icon.svg" alt="rss">
+          <img class="footer__img" src="images/twitter_icon.svg" alt="twitter">
+        </div>
+        <h5 class="footer__copyright">© 2015 Axure Themes</h5>
+      </div>
+    </footer>
   </main>
 </body>
 

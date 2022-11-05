@@ -1,0 +1,52 @@
+.design{
+    background-image: url(../images/design-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+.design__bg{
+    background: rgba(0, 0, 0, 0.5);
+}
+.design__inner{
+    display: flex;
+    flex-direction: column;
+}
+.design__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    height: 150px;
+    margin-top: 50px;
+}
+.design__separator {
+    width: 170px;
+    margin: 0 auto;
+    border: .5px solid #fff;
+    margin-bottom: 40px;
+}
+.design__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 73px;
+}
+.design__btn {
+    display: block;
+    width: 270px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 auto;
+    background: none;
+    border: 2px solid #fff;
+    margin-bottom: 50px;
+}

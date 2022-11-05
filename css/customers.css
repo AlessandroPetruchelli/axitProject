@@ -1,7 +1,8 @@
 .customers{
-    padding: 50px 0 64px;
+    margin-bottom: 64px;
 }
 .customers__title{
+    font-family: 'Raleway', sans-serif; 
     font-size: 36px;
     line-height: 150px;
     text-align: center;
@@ -11,11 +12,12 @@
 }
 .customers__separator{
     width: 170px;
-    border: 1px solid #EC7979;
+    border: 0.5px solid #EC7979;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 .customers__subtitle{
+    font-family: 'Raleway', sans-serif; 
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -36,6 +38,7 @@
 .customers__reviews-title{
     display: flex;
     align-items: center;
+    font-family: 'Raleway', sans-serif; 
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -59,7 +62,6 @@
     margin-right: 30px;
 }
 .customers__client-content h4{
-    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     line-height: 54px;
     height: 54px;
@@ -67,6 +69,7 @@
     margin-bottom: 15px;
 }
 .customers__client-content h5{
+    font-family: 'Raleway', sans-serif; 
     font-size: 18px;
     line-height: 21px;
     align-items: center;
