@@ -60,7 +60,8 @@
     margin-left: 25px;
     resize: none;
 }
-.contact button {
+.contact__btn {
+    font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
     color: #fff;
     font-weight: 600;
@@ -72,4 +73,12 @@
     display: block;
     margin-top: 50px;
     font-size: 18px;
+}
+.contact__btn:hover {
+    background: #AB4949;
+    cursor: pointer;
+}
+.contact__btn:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }

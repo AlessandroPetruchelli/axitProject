@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  font-family: 'Open Sans', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
-}
 .header{
     background-image: url(../images/axit-bg.jpeg);
     background-size: cover;
@@ -23,8 +13,12 @@ body{
     padding: 0 170px 0 115px;
     background: #000;
 }
+.header__logo img {
+    vertical-align: bottom;
+}
 .menu__list{
     display: flex;
+    list-style-type: none;
 }
 .menu__link{
     display: flex;
@@ -36,7 +30,15 @@ body{
     line-height: 29px;
     color: #fff;
     width: 113px;
+    height: 75px;
     text-transform: capitalize;
+}
+.menu__link:hover {
+    background: #EC7979;
+    cursor: pointer;
+}
+.menu__link:active {
+    background: #AB4949;
 }
 .header__content-inner{
     display: flex;
@@ -73,7 +75,7 @@ body{
     color: #fff;
     margin-bottom: 42px;
 }
-.btn{
+.header__btn{
     font-family: 'Open Sans', sans-serif;
     width: 270px;
     height: 58px;
@@ -84,6 +86,16 @@ body{
     color: #fff;
     background: rgb(255, 255, 255, 0);
     margin-bottom: 183px;
+}
+.header__btn:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+    cursor: pointer;
+}
+.header__btn:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #fff;
 }
 .header__form{
     display: flex;
@@ -141,7 +153,16 @@ body{
     margin-top: 42px;
     border: none;
 }
-
+.form__btn:hover {
+    background: #AB4949;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+.form__btn:active {
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
 
 
 

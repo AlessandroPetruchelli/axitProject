@@ -38,6 +38,7 @@
     margin-bottom: 73px;
 }
 .design__btn {
+    font-family: 'Open Sans', sans-serif;
     display: block;
     width: 270px;
     height: 58px;
@@ -49,4 +50,14 @@
     background: none;
     border: 2px solid #fff;
     margin-bottom: 50px;
+}
+.design__btn:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+    cursor: pointer;
+}
+.design__btn:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #fff;
 }
